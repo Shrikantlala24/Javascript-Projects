@@ -48,7 +48,7 @@ A beginner-friendly, project-based journey into **HTML5**, **CSS3**, and **JavaS
 3. Open the index.html file in your web browser to view the project.
 ---
 ## Project structure
-    ```bash
+    ```
     /project-root
     ├── fd-calculator
     │   ├── index.html
