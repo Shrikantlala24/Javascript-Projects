@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FD Calculator</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>FD Calculator</h1>
+
+        <div class="form">
+            <label for="Principle">Principle amount</label>
+            <input type="number" id="Principle" placeholder="Enter principle amount" required>
+        </div>
+        <!--  -->
+        <div class="form">
+            <label for="Interestrate">Interest rate</label>
+            <input type="number" id="Interest" placeholder="Enter Interest rate" required>
+        </div>
+        <!--  -->
+        <div class="form">
+            <label for="tenure">tenure (in years)</label>
+            <input type="number" id="tenure" placeholder="Enter tenure in years" required>
+        </div>
+        <div class="btn-center"><button id="BTN" class="BTN">Calculate</button></div>
+        
+        <p id="result" class="result">Maturity amount</p>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
